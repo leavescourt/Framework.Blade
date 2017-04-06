@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/blade-parent/blade-manager/blade-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-parent/blade-order" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-parent/blade-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-parent/blade-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-parent/blade-search" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-parent/blade-sso" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/blade-parent/blade-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-common/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-manager/blade-manager-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-manager/blade-manager-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-manager/blade-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-manager/blade-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-order/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-search/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/blade-sso/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

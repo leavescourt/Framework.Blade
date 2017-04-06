@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="blade-rest:war">
+    <output-path>$PROJECT_DIR$/blade-rest/target</output-path>
+    <root id="archive" name="blade-rest.war">
+      <element id="artifact" artifact-name="blade-rest:war exploded" />
+    </root>
+  </artifact>
+</component>

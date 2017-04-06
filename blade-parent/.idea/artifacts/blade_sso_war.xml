@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="blade-sso:war">
+    <output-path>$PROJECT_DIR$/blade-sso/target</output-path>
+    <root id="archive" name="blade-sso.war">
+      <element id="artifact" artifact-name="blade-sso:war exploded" />
+    </root>
+  </artifact>
+</component>

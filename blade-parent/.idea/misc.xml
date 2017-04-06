@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/blade-manager/blade-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-order" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-search" />
+    <file type="web" url="file://$PROJECT_DIR$/blade-sso" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/blade-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-manager/blade-manager-pojo/target/classes/META-INF/maven/com.taotao/taotao-manager-pojo/pom.properties" />
+        <option value="$PROJECT_DIR$/blade-common/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-order/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-search/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-manager/blade-manager-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-manager/blade-manager-pojo/target/classes/META-INF/maven/com.taotao/taotao-manager-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-manager/blade-manager-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-manager/blade-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-manager/blade-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/blade-rest/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/blade-manager/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="blade-order:war">
+    <output-path>$PROJECT_DIR$/blade-parent/blade-order/target</output-path>
+    <root id="archive" name="blade-order.war">
+      <element id="artifact" artifact-name="blade-order:war exploded" />
+    </root>
+  </artifact>
+</component>

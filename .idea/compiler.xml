@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blade-common" />
+        <module name="blade-manager-mapper" />
+        <module name="blade-manager-pojo" />
+        <module name="blade-manager-service" />
+        <module name="blade-manager-web" />
+        <module name="blade-order" />
+        <module name="blade-portal" />
+        <module name="blade-rest" />
+        <module name="blade-search" />
+        <module name="blade-sso" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blade-common" target="1.8" />
+      <module name="blade-manager" target="1.7" />
+      <module name="blade-manager-mapper" target="1.7" />
+      <module name="blade-manager-pojo" target="1.7" />
+      <module name="blade-manager-service" target="1.7" />
+      <module name="blade-manager-web" target="1.7" />
+      <module name="blade-order" target="1.7" />
+      <module name="blade-parent" target="1.7" />
+      <module name="blade-portal" target="1.7" />
+      <module name="blade-rest" target="1.7" />
+      <module name="blade-search" target="1.7" />
+      <module name="blade-sso" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
