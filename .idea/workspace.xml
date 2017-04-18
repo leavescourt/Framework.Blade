@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="648fc8c9-2a39-4176-805c-dbf6aafc3d30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/006接口文档/001测试工具/Postman-win64-4.10.3-Setup.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/006接口文档/001测试工具/postman-4.1.2（谷歌离线插件安装版）.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/001编码规范/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/002需求文档/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/003设计文档/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/004系统架构/001环境搭建/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/004系统架构/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/005技术选型/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/006接口文档/001测试工具/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/006接口文档/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/007操作文档/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/008项目部署/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/009项目总结/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DOC/db/README.md" />
+    <list default="true" id="648fc8c9-2a39-4176-805c-dbf6aafc3d30" name="Default" comment="Blade项目文档目录结构基线确定">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/blade-parent/blade-parent/target/" />
@@ -670,7 +655,7 @@
       <updated>1491458417911</updated>
       <workItem from="1491458420305" duration="2351000" />
       <workItem from="1492138959096" duration="794000" />
-      <workItem from="1492488537554" duration="2177000" />
+      <workItem from="1492488537554" duration="3187000" />
     </task>
     <task id="LOCAL-00001" summary="单点登录模块-依赖修改">
       <created>1491460815294</created>
@@ -679,18 +664,25 @@
       <option name="project" value="LOCAL" />
       <updated>1491460815294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Blade项目文档目录结构基线确定">
+      <created>1492493592976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492493592976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5322000" />
+    <option name="totallyTimeSpent" value="6332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -709,7 +701,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -748,7 +740,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单点登录模块-依赖修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="单点登录模块-依赖修改" />
+    <MESSAGE value="Blade项目文档目录结构基线确定" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blade项目文档目录结构基线确定" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
