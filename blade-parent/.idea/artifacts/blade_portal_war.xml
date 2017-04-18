@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="blade-portal:war">
-    <output-path>$PROJECT_DIR$/blade-portal/target</output-path>
-    <root id="archive" name="blade-portal.war">
-      <element id="artifact" artifact-name="blade-portal:war exploded" />
-    </root>
-  </artifact>
-</component>
