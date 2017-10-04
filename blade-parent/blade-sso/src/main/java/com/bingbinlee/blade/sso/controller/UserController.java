@@ -2,7 +2,8 @@ package com.bingbinlee.blade.sso.controller;
 
 import com.bingbinlee.blade.common.pojo.BladeResult;
 import com.bingbinlee.blade.common.utils.ExceptionUtil;
-import com.bingbinlee.blade.pojo.User;
+
+import com.bingbinlee.blade.pojo.TbUser;
 import com.bingbinlee.blade.sso.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -75,7 +76,7 @@ public class UserController {
 	//创建用户
 	@RequestMapping(value="/register", method=RequestMethod.POST)
 	@ResponseBody
-	public BladeResult createUser(User user) {
+	public BladeResult createUser(TbUser user) {
 		
 		try {
 			BladeResult result = userService.createUser(user);

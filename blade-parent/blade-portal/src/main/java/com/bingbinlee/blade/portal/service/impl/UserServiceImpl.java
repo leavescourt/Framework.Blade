@@ -1,17 +1,17 @@
 package com.bingbinlee.blade.portal.service.impl;
 
+
+import com.bingbinlee.blade.common.pojo.BladeResult;
+import com.bingbinlee.blade.common.utils.HttpClientUtil;
+import com.bingbinlee.blade.pojo.TbUser;
+import com.bingbinlee.blade.portal.service.UserService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.bingbinlee.blade.common.utils.HttpClientUtil;
-import com.bingbinlee.blade.common.pojo.BladeResult;
-import com.bingbinlee.blade.pojo.User;
-import com.bingbinlee.blade.portal.service.UserService;
-
 /**
- * @Description 用户管理Service
+ * 用户管理Service
  * @author	libingbin2015@aliyun.com
- * @date	2015年11月30日下午11:51:53
+ * @date	2016年10月1日下午9:11:51
  * @version 1.0
  */
 @Service
@@ -28,14 +28,14 @@ public class UserServiceImpl implements UserService {
 	
 	
 	@Override
-	public User getUserByToken(String token) {
+	public TbUser getUserByToken(String token) {
 		try {
 			//调用sso系统的服务，根据token取用户信息
 			String json = HttpClientUtil.doGet(SSO_BASE_URL + SSO_USER_TOKEN + token);
 			//把json转换成BladeResult
-			BladeResult result = BladeResult.formatToPojo(json, User.class);
+			BladeResult result = BladeResult.formatToPojo(json, TbUser.class);
 			if (result.getStatus() == 200) {
-				User user = (User) result.getData();
+				TbUser user = (TbUser) result.getData();
 				return user;
 			}
 			

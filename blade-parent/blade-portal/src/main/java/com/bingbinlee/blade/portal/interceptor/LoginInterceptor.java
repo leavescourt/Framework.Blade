@@ -1,7 +1,8 @@
 package com.bingbinlee.blade.portal.interceptor;
 
 import com.bingbinlee.blade.common.utils.CookieUtils;
-import com.bingbinlee.blade.pojo.User;
+
+import com.bingbinlee.blade.pojo.TbUser;
 import com.bingbinlee.blade.portal.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -29,7 +30,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 		//从cookie中取token
 		String token = CookieUtils.getCookieValue(request, "TT_TOKEN");
 		//根据token换取用户信息，调用sso系统的接口。
-		User user = userService.getUserByToken(token);
+		TbUser user = userService.getUserByToken(token);
 		//取不到用户信息
 		if (null == user) {
 			//跳转到登录页面，把用户请求的url作为参数传递给登录页面。

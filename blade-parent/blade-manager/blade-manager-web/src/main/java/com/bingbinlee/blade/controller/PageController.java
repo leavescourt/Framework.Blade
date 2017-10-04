@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @Description 页面跳转Controller
+ * 页面跳转controller
  * @author	libingbin2015@aliyun.com
- * @date	2016年9月15日上午11:51:53
+ * @date	2016年10月1日下午9:11:51
  * @version 1.0
  */
 @Controller
@@ -15,13 +15,11 @@ public class PageController {
 
 	/**
 	 * 打开首页
-	 * @return
 	 */
 	@RequestMapping("/")
 	public String showIndex() {
 		return "index";
 	}
-
 	/**
 	 * 展示其他页面
 	 * @param page

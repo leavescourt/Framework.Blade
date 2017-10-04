@@ -1,7 +1,7 @@
 package com.bingbinlee.blade.sso.service;
 
 import com.bingbinlee.blade.common.pojo.BladeResult;
-import com.bingbinlee.blade.pojo.User;
+import com.bingbinlee.blade.pojo.TbUser;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 public interface UserService {
 
 	BladeResult checkData(String content, Integer type);
-	BladeResult createUser(User user);
+	BladeResult createUser(TbUser user);
 	BladeResult userLogin(String username, String password, HttpServletRequest request, HttpServletResponse response);
 	BladeResult getUserByToken(String token);
 }
